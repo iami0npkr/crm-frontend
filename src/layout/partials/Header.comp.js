@@ -22,6 +22,7 @@ export const Header = () => {
                 <Nav.Link href='/dashboard'>Logout</Nav.Link>
             </Nav>
          </Navbar.Collapse>
+         <br/>
         </Navbar>
     )
 }
