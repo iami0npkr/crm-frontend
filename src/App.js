@@ -6,13 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Entry } from './page/entry/Entry.page.js';
 import { DefaultLayout } from './layout/DefaultLayout.js';
+import { Dashboard } from './page/dashboard/Dashboard.page.js';
 
 function App() {
   return (
     <div className="App">
       {/* <Entry/> */}
       <DefaultLayout>
-        //Dashboard
+         <Dashboard/>
       </DefaultLayout>
     </div>
   );
